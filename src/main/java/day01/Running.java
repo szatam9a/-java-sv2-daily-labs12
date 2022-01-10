@@ -44,6 +44,7 @@ public class Running {
         } catch (IOException e) {
             throw new IllegalStateException("no file", e);
 
+
         }
         diary.remove(0);
         String[] temp;
